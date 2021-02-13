@@ -1,14 +1,14 @@
-package zp;
+package java_pawan;
 
 import java.util.Arrays;
 
-public class MissingNumber {
+public class ArrayMissingNumber {
 
 	public static void main(String[] args) {
-
-
-		int a[]= {1,2,3,4,5,6,8,9,10};
+		
+		int[] a={1,2,3,4,5,7};
 		int sum=0;
+		int sum1=0;
 		
 		for(int i=0; i<a.length; i++)
 		{
@@ -16,17 +16,20 @@ public class MissingNumber {
 		}
 		System.out.println(sum);
 		
-		
-		int sum1=0;
-		for(int j=1; j<=10; j++)
+		for(int j=1; j<=7; j++)
 		{
 			sum1=sum1+j;
 		}
 		System.out.println(sum1);
 		
 		System.out.println(Arrays.toString(a));
-		    
-		System.out.println("Missing Number is::-->"+ (sum1-sum));
+		
+		System.out.println("Missing Number Are ::-->  "+(sum1-sum));
+		
+		
+		
+		
+
 	}
 
 }

@@ -3,7 +3,6 @@ package javaProgramNVN;
 public class ArmstrongNumberNVN {
 
 	// 1*1*1=1, // 5*5*5=125, // 3*3*3=27, // 407 == 4*4*4 + 0 + 7*7*7 =407,// 0, // 1, //370, 371
-	
 	public static void isArmsTroneNumber(int num) {
 
 			int cube=0;
@@ -28,7 +27,6 @@ public class ArmstrongNumberNVN {
 			}
 	}	
 			
-
 	public static void main(String[] args) {
 
 		isArmsTroneNumber(153);

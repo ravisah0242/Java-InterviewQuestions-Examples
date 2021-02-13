@@ -17,7 +17,7 @@ public class PrimeAllNumber {
 			}
 			if(temp==0)
 			{
-				System.out.println(num+ " numver is prime");
+				System.out.println(num+ " number is prime");
 			}
 			else
 			{

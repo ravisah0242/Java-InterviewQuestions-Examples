@@ -1,5 +1,7 @@
 package collectionFramewrokInJava;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -17,7 +19,10 @@ public class LinkedHashSetClassInJava {
 		hashSet1.add(20000);
 		hashSet1.add(20000);
 		hashSet1.add(20000);
+		hashSet1.add(12);
 		System.out.println(hashSet1);
+		//Collections.sort(hashSet1);
+		
 		
 		LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<Integer>();
 		linkedHashSet.add(211);

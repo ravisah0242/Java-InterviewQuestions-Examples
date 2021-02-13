@@ -18,15 +18,14 @@ public class ArrayListCostomizeSorting {
 			list.add(9);
 			list.add(5);
 			
-			Comparator<Integer> c=(a1,a2) ->a2.compareTo(a1);
+			Collections.sort(list);
+			System.out.println(list);  // Natural sorting
+			
+			Comparator<Integer> c=(a1,a2) ->a2.compareTo(a1);   // CUstomise Sorting
 			Collections.sort(list,c);
 			System.out.println(list);
 			
 			
-			/*Comparator<Integer> c=(i1,i2)->i2.compareTo(i1);
-			Collections.sort(list, c);
-			System.out.print(list);
-*/
 	}
 
 }

@@ -3,7 +3,7 @@ package zp;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FindDuplivateElementInInteger {
+public class DuplivateElementInInteger {
 
 	public static void main(String[] args) {
 

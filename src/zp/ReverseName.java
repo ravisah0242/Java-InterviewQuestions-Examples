@@ -4,8 +4,8 @@ public class ReverseName {
 
 	public static void main(String[] args) {
 
-
-		String name="Ravi Ranjan";
+		// 1. Approach 
+		String name="Vikash";
 		char[] ch = name.toCharArray();
 		
 		for(int i=ch.length-1; i>=0; i--)
@@ -14,8 +14,18 @@ public class ReverseName {
 		}
 		System.out.println();
 		
+		// 3. Approch
 		
-		System.out.println("*****************************");
+		String r="Ranjan";
+		String[] r1=r.split("");
+		
+		for(int i=r1.length-1; i>=0; i--)
+		{
+			System.out.print(r1[i]);
+		}
+		System.out.println();
+		
+		// 2. Approch 
 		String s="Ravi";
 		String rev="";
 		int leng;

@@ -13,9 +13,9 @@ public class ArraySort {
 			Arrays.sort(x);
 
 			for(int x1:x)
-				{
+			{
 				System.out.print(x1);
-				}
+			}
 	}
 
 }
