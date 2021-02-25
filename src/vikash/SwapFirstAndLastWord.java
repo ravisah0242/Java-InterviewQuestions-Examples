@@ -13,13 +13,13 @@ public class SwapFirstAndLastWord {
 			temp=str[0];
 			str[0]=str[2];
 			str[2]=temp;
-
 			for(String s1:str)
 			{
-
 				result+=s1+" ";
 			}
 			System.out.print("Swapped strins is==>>>"+ result);
+			
+		
 	}
 
 

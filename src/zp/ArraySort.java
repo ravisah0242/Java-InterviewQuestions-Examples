@@ -24,6 +24,8 @@ public class ArraySort {
 			System.out.println(num[i]);
 		}
 		
+		
+		// Reverse Order Sorting
 		Integer[] num2= {12,23,3344,55,66,77,88,99};
 		
 		Arrays.sort(num2, Collections.reverseOrder());

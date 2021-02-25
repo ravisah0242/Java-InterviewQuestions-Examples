@@ -10,9 +10,7 @@ public class Prime_Number
 		int a =8;		//  for(int no =1; no<=10; no++) {  <------Add (All code are Same for 1 t0 100 prime number) 
 		
 		int temp=0;
-		
-		//for(int i=2;i<=a-1;i++)
-		//OR
+
 		for(int i=2;i<a;i++)
 		{
 			if(a%i==0)
@@ -31,6 +29,9 @@ public class Prime_Number
 			System.out.println(a+"  Number is not prime");
 		}
 		
+		
+		
+		//=================================================================================
 		 System.out.println("***************************************");
 		 // print all Prime Number
 		 for(int no =1; no<=10; no++) {

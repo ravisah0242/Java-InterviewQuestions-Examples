@@ -11,7 +11,7 @@ public class OccranceVowel {
 				char[] ch=s.toCharArray();
 				for(char ch1:ch)
 				{
-					if(ch1=='a' | ch1=='e' | ch1=='i' | ch1=='o' | ch1=='u')
+					if(ch1=='a' || ch1=='e' || ch1=='i' || ch1=='o' || ch1=='u')
 					{
 						count++;
 					}

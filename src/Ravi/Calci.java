@@ -15,7 +15,7 @@ public class Calci
 		int c;
 		c=a+b;
 		{
-			System.out.println("Sum of two number"+c);
+			System.out.println("Sum of two number ::-> "+c);
 		}
 	}
 

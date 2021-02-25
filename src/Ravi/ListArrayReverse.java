@@ -30,7 +30,8 @@ public class ListArrayReverse {
 		al1.add(150);
 		al1.add(900);
 		
-		System.out.println(al);	
+		Collections.sort(al1,Collections.reverseOrder());
+		System.out.println(al1);	
 		
 	}
 

@@ -10,7 +10,7 @@ public class ArrayTwoEqualsORNot {
 		int[] b={1,2,3,4,5,6,7};
 
 		// 1 Approach Compare Two Array Are Equals on not ?
-		/*boolean status=Arrays.equals(a, b);
+		boolean status=Arrays.equals(a, b);
 		
 		if(status==true)
 		{
@@ -19,11 +19,11 @@ public class ArrayTwoEqualsORNot {
 		else
 		{
 			System.out.println("Both Array are Not Equals");
-		}*/
+		}
 
 		// 2  Approach Compare Two Array Are Equals on not ?
 		
-		boolean status=true;
+		/*boolean status=true;
 		
 		if(a.length==b.length)
 		{
@@ -49,7 +49,7 @@ public class ArrayTwoEqualsORNot {
 		else
 		{
 			System.out.println("Array Are not Euals");
-		}
+		}*/
 		
 		
 	}
