@@ -6,7 +6,6 @@ public class CountEvenAndOddNumber {
 
 
 		int num=12345;
-		
 		int evencount=0;
 		int oddcount=0;
 		

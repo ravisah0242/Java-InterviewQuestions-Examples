@@ -11,7 +11,7 @@ public class ArrayToConvertArrayList {
 		
 		
 		String[] name= {"java", "Ruby","C++","java","Ruby"};
-		java.util.List<String > l=new ArrayList<String>();
+		java.util.List<String > l=new ArrayList<String>();		// for String[] Array
 		Collections.addAll(l, name);
 		System.out.println(l);
 		l.remove(1);

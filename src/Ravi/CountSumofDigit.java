@@ -1,10 +1,10 @@
-package java_pawan;
+package Ravi;
 
 public class CountSumofDigit {
 
 	public static void main(String[] args) {
 
-		/*int num=1234;
+		int num=1234;
 		int sum=0;
 		int digit=0;
 		
@@ -14,11 +14,11 @@ public class CountSumofDigit {
 			sum=sum+digit;
 			num=num/10;
 		}
-		System.out.println(sum);*/
+		System.out.println(sum);
 	
 		
 
-		int num=1234;
+		/*int num=1234;
 		
 		int sum=0;
 		
@@ -27,7 +27,7 @@ public class CountSumofDigit {
 			sum=sum+num%10;
 			num=num/10;
 		}
-		System.out.println(sum);
+		System.out.println(sum);*/
 		
 		/*int number=1234567;
 		int rem=0;
