@@ -1,7 +1,5 @@
 package Ravi;
 
-import java.util.Scanner;
-
 public class Factorial_Number 
 {
 

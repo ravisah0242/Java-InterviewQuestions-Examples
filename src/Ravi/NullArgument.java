@@ -2,10 +2,14 @@ package Ravi;
 
 public class NullArgument {
 
-	public static void main(String a[]) {
+	public static void main(String[] args) {
+		//test(null);
+	}
+	
+	/*public static void main(String a[]) {
 		
 		test(null);
-	}
+	}*/
 	
 	public static void main(Object o) {
 		System.out.println("Object Argument");
