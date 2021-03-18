@@ -1,6 +1,6 @@
-package zz;
+package Ravi;
 
-public class Test {
+public class Interview_Q2 {
 
 	public static void main(String[] args) {
 		

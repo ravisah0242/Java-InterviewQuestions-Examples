@@ -1,6 +1,6 @@
 package Ravi;
 
-public class InterViewQ1 {
+public class Interview_Q1 {
 
 	public static void main(String[] args) {
 		
