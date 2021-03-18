@@ -1,6 +1,6 @@
 package Ravi;
 
-public class WithOutSemicollonPrint {
+public class PrintWithOutSemicollon {
 
 	public static void main(String[] args) {
 		

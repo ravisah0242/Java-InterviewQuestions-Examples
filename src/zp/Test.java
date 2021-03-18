@@ -34,3 +34,5 @@ public class Test {
 	}
 
 }
+
+nvt\4372
