@@ -6,19 +6,33 @@ public class Swaping_Number
 	{
 		int a=10;
 		int b=20;
+		System.out.println(a+"--"+b);
 		
+		// 1  Approach
 		/*int t;		without using 3rd veritable swap two Number;
 		t=a;  		Interview Quetion;
 		a=b;
 		b=t;*/
 		
-		a=a+b;
+		// 2 nd Approach
+		/*a=a+b;
 		b=a-b;
-		a=a-b;
+		a=a-b;*/
 		
+		// 3 Approach
+		//b=a+b-(a=b);
 		
-		System.out.println("a value is = "+a);
-		System.out.println("b value is = "+b);
+		// 4 th Approach
+		/*a=a*b;
+		b=a/b;
+		a=a/b;*/
+		
+		// 5 th Approach
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		
+		System.out.println(a+"--"+b);
 		
 	}
 

@@ -23,7 +23,7 @@ public class DuplicateElementInString {
 		Set<String> store=new HashSet<String>();
 		for(String str:names)
 		{
-			if(store.add(str)==true)
+			if(store.add(str)==false)
 			{
 				System.out.println("Using Set Interface:--> "+ str);
 			}
