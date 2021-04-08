@@ -1,6 +1,7 @@
 package Ravi;
 
 import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
 public class OccuranceWord {
 
@@ -27,6 +28,14 @@ public class OccuranceWord {
 			}
 		}
 		System.out.println(lh);
+		for(Entry<String, Integer> entrySet:lh.entrySet())
+		{
+			if(entrySet.getValue()==1)	//  non Repeating word
+			{
+				System.out.println(entrySet.getKey());
+				//break;
+			}
+		}
 	}
 
 }

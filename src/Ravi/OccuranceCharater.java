@@ -1,6 +1,7 @@
 package Ravi;
 
 import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
 public class OccuranceCharater {
 
@@ -25,6 +26,15 @@ public class OccuranceCharater {
 			}
 		}
 		System.out.println(lh);
+		
+		for(Entry<Character, Integer> entrySet:lh.entrySet())
+		{
+			if(entrySet.getValue()==1)	//  non Repeating Charter
+			{
+				System.out.println(entrySet.getKey());
+				//break;
+			}
+		}
 	}
 
 }

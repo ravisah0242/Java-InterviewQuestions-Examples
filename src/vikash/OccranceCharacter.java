@@ -6,7 +6,7 @@ public class OccranceCharacter {
 
 	
 		public static void main(String[] args){
-			String s="Viakasa is good an cute bhacha";
+			String s="Ravi is good an cute bhacha";
 			char[] ch=s.toCharArray();
 			short count=0;
 
