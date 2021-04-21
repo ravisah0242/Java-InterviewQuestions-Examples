@@ -20,7 +20,7 @@ public class QueueDemo2 {
 		System.out.println(q); //[A, B, C, 100, C]  //insertion order preserved & duplicates allowed
 		
 		//get head element    element()   peek()
-		//System.out.println(q.element());  //A   Returns Head element  , if empty returns NoSuchElementException
+		System.out.println(q.element());  //A   Returns Head element  , if empty returns NoSuchElementException
 		//System.out.println(q.peek()); //A  Returns Head element,  if empty returns null
 		
 		

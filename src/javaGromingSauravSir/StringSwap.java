@@ -15,10 +15,9 @@ public class StringSwap {
 			str[2]=temp;
 
 			for(String s1:str)
-				{
-
+			{
 				result+=s1+" ";
-				}
+			}
 			System.out.print("Swapped strins is==>>>"+ result);
 	}
 }

@@ -1,12 +1,14 @@
 package javaGromingSauravSir;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class OccranceWord {
 
 	public static void main(String[] args) {
 
-		String s="Nirma washin pawer dudh ki safai nirma sab ki pasand";
+		String s="Nirma washin pawer pawer pawer dudh ki ki ki ki ki ki safai nirma sab ki pasand";
 		LinkedHashMap<String , Integer> lh=new LinkedHashMap<String, Integer>();
 		s=s.toLowerCase();		
 		String[] words = s.split(" ");
@@ -24,5 +26,14 @@ public class OccranceWord {
 			}
 		}
 		System.out.println(lh);
+		
+		for(Entry<String, Integer> entryset:lh.entrySet())
+		{
+			if(entryset.getValue()!=1)
+			{
+				System.out.println(entryset.getKey());
+			}
+		}
+		
 	}
 }

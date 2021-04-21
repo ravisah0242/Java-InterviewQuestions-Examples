@@ -9,6 +9,7 @@ public class OccranceVowel_in_String {
 			String s="Himalaya";
 			int count=0;
 			char[] ch=s.toCharArray();
+			
 			for(char ch1:ch)
 				{
 					if(ch1=='a' | ch1=='e' | ch1=='i' | ch1=='o' | ch1=='u')

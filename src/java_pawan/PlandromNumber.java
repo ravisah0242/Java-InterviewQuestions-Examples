@@ -8,6 +8,7 @@ public class PlandromNumber {
 		int num=121;
 		int org=num;
 		int rev=0;
+		
 		while(num>0)
 		{
 			rev=rev*10+num%10;

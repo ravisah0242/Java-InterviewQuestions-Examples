@@ -13,9 +13,9 @@ public class OccranceCharecterv {
 			for(char ch1: ch)
 			{
 				if(ch1=='a')
-					{
-					count++;
-					}
+				{
+						count++;
+				}
 			}
 			System.out.print("Occurance of charcter in an array is===>>>>"  + count);
 		}

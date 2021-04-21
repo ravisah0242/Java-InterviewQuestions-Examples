@@ -20,7 +20,7 @@ public class ArrayListInJava3 {
 		arrayList1.add(6);
 		arrayList1.add(8);
 		
-		//arrayList.retainAll(arrayList1);
+		arrayList.retainAll(arrayList1);
 		
 		//System.out.println(arrayList.size());
 		
