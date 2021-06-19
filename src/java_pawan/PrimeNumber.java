@@ -6,6 +6,7 @@ public class PrimeNumber {
 
 		int num=3;
 		int count=0;
+		
 		if(num>0)
 		{
 			for(int i=1; i<=num; i++)

@@ -1,39 +1,52 @@
 package Ravi;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class Test {
 
 	public static void main(String[] args) {
 
-		String s="Mahabharat";
-		s=s.toLowerCase();
+
+		String[] names= {"java", "Python", "java", "Ruby", "C#", "C++","Ruby"};
 		
-		LinkedHashMap<Character, Integer>  lh=new LinkedHashMap<Character,Integer>();
+		Set<String> st=new HashSet<String>();
 		
-		for(int i=0; i<s.length(); i++)
+		for(String s:names)
 		{
-			char ch=s.charAt(i);
-			if(lh.containsKey(ch))
+			if(st.add(s)==false)
 			{
-				Integer value=lh.get(ch);
-				lh.put(ch,value+1);
-			}
-			else
-			{
-				lh.put(ch, 1);
+				System.out.println("duplicte "+s);
 			}
 		}
-		//System.out.println(lh);
 		
-		for(Entry<Character, Integer> entryset:lh.entrySet())
-		{
-			if(entryset.getValue()==4)
-			{
-				System.out.println(entryset.getKey());
-			}
-		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

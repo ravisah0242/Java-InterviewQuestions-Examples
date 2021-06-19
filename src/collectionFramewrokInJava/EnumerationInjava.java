@@ -20,11 +20,11 @@ public class EnumerationInjava {
 		
 		Enumeration<Integer> enu = obj.elements();
 		
-		/*
+		
 		while(enu.hasMoreElements()){
 			System.out.println(enu.nextElement());
 		}
-		*/
+		
 		Iterator<Integer> itr = obj.iterator();
 		
 		while(itr.hasNext()){

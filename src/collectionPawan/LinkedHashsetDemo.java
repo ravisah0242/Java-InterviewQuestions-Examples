@@ -17,7 +17,7 @@ public class LinkedHashsetDemo {
 		lset.add(400);
 		lset.add(500);
 		
-		System.out.println(lset); //[400, 100, 500, 200, 300]
+		System.out.println(lset); //[100, 200, 300, 400, 500]
 
 	}
 

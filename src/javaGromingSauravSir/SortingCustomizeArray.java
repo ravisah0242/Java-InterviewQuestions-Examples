@@ -16,7 +16,7 @@ public class SortingCustomizeArray {
 			list.add(3);
 			list.add(9);
 			list.add(5);
-			Comparator<Integer> c=(i1,i2)->i2.compareTo(i1);
+			Comparator<Integer> c=(i1,i2)-> i2.compareTo(i1);
 			Collections.sort(list, c);
 			System.out.print(list);
 			
